@@ -1,0 +1,70 @@
+.masterContainer {
+  margin: 0 50px;
+}
+.complete {
+  color: green;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 25px;
+  background: rgb(186, 255, 186);
+  text-decoration: line-through;
+  transition: all 0.5s;
+  cursor: grab;
+  max-width: 400px;
+}
+
+.incomplete {
+  color: #333;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 25px;
+  background: lightgrey;
+  transition: all 0.5s;
+  cursor: grab;
+  max-width: 400px;
+}
+
+button {
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 11px 23px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.add {
+  border: solid 2px dodgerblue;
+  color: dodgerblue;
+  transition: all 0.5s;
+}
+
+.clear {
+  border: solid 2px crimson;
+  color: crimson;
+  transition: all 0.5s;
+}
+
+.add:hover {
+  background: dodgerblue;
+  color: white;
+}
+
+.clear:hover {
+  background: crimson;
+  color: white;
+}
+
+input {
+  border: #333 solid 2px;
+  border-radius: 5px;
+  padding: 11px 5px;
+
+  font-size: 16px;
+}
+
+input:focus {
+  border: dodgerblue solid 2px;
+  color: dodgerblue;
+}
